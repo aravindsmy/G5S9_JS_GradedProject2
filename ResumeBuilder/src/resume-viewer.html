@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/style/resume.css" />
+    <script type="module" src="./resume.js"></script>
+    <title>Resume Viewer</title>
+  </head>
+  <body>
+    <div class="actions">
+      <div class="input_button">
+        <button class="prev" id="prev">Previous</button>
+        <input type="search" id="search" placeholder=" Enter job keyword..." />
+        <button class="next" id="next">Next</button>
+      </div>
+      <div class="app-details" id="app-details">
+            <h4 class="applicant_name"></h4>
+            <span class="appliedFor"></span>
+      </div>
+      <div class="container" id="container">
+        <div class="left_side">
+          <div class="profile">
+          </div>
+          <div class="info contact" id="contact">
+          </div>
+          <div class="info education" id="education">
+          </div>
+          <div class="info hobbies" id="hobbies">
+          </div>
+        </div>
+        <div class="right_side">
+          <div class="about" id="experience">
+          </div>
+          <div class="about skills" id="skills">
+          </div>
+          <div class="about" id="projects">
+          </div>
+          <div class="about" id="intern">
+          </div>
+          <div class="about achievements" id="achievements">
+          </div>
+        </div>
+      </div>
+      <div class="errormsg" id="errormsg">
+        <div class="message">
+          <img src="/res/icons/no-results.png" alt="no results">
+          <span>No Results Found.</span>
+        </div>        
+      </div>
+    </div>
+  </body>
+</html>

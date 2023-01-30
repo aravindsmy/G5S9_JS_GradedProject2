@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/* styling the body */
+body {
+    background: rgb(243, 230, 170);
+    color: white;
+    font: 87.5%/1.5em 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/* styling login container */
+.login {
+    margin: 50px auto;
+    width: 320px;
+}
+
+/* styling login form */
+.login form {
+    margin: auto;
+    padding: 22px 22px 22px 22px;
+    width: 100%;
+    border-radius: 5px;
+    background: #30393f;
+    border-top: 3px solid #629ad9;
+    border-bottom: 3px solid #629ad9;
+
+}
+
+.login form label {
+    font-size: medium;
+
+}
+
+/* styling form input fields */
+.login form input[type="text"],
+.login form input[type="password"] {
+    background-color: #30393f;
+    border-radius: 0px 3px 3px 0px;
+    color: #a9a9a9;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    padding: 0 16px;
+    width: 90%;
+    height: 40px;
+
+}
+
+/* styling submit button */
+.login form button {
+    background: #b5cd60;
+    border: 0;
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.login form button:hover {
+    background: #c82deb;
+}
